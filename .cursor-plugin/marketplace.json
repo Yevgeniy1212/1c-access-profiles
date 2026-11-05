@@ -1,0 +1,34 @@
+{
+  "name": "1c-access",
+  "owner": {
+    "name": "Кибернетика",
+    "email": "yevgeniy1212@github.com"
+  },
+  "metadata": {
+    "description": "Плагины Cursor для работы с правами доступа в 1С: профили групп доступа через MCP Toolkit",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "1c-access-profiles",
+      "source": "./plugins/1c-access-profiles",
+      "description": "Работа с профилями групп доступа 1С через MCP Toolkit: анализ того, что даёт профиль, сравнение профилей, проверка типовых проблем и создание профилей копированием.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Кибернетика"
+      },
+      "license": "Proprietary",
+      "keywords": [
+        "1c",
+        "1с",
+        "профили доступа",
+        "группы доступа",
+        "права",
+        "роли",
+        "mcp-toolkit",
+        "бсп"
+      ],
+      "category": "development"
+    }
+  ]
+}
