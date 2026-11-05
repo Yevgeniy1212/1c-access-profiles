@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="1C Access Profiles">
+  <defs>
+    <linearGradient id="shieldFill" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1F3A93"/>
+      <stop offset="100%" stop-color="#0F1C47"/>
+    </linearGradient>
+    <linearGradient id="keyFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD34D"/>
+      <stop offset="100%" stop-color="#F2A600"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M32 3 L57 12 V31 C57 45 46 55.5 32 61 C18 55.5 7 45 7 31 V12 Z"
+        fill="url(#shieldFill)" stroke="#0B1330" stroke-width="2" stroke-linejoin="round"/>
+
+  <path d="M32 8.5 L51.5 15.5 V31 C51.5 42 43 50.5 32 55.3 C21 50.5 12.5 42 12.5 31 V15.5 Z"
+        fill="none" stroke="#4C6BD6" stroke-width="1.5" opacity="0.7"/>
+
+  <!-- keyhole -->
+  <circle cx="32" cy="26" r="6.5" fill="url(#keyFill)"/>
+  <path d="M29.2 30.5 L34.8 30.5 L36.6 45.5 L27.4 45.5 Z" fill="url(#keyFill)"/>
+
+  <!-- access badge: three slots -->
+  <rect x="18" y="47.5" width="7" height="3.2" rx="1.6" fill="#8FA8F0"/>
+  <rect x="28.5" y="47.5" width="7" height="3.2" rx="1.6" fill="#8FA8F0"/>
+  <rect x="39" y="47.5" width="7" height="3.2" rx="1.6" fill="#8FA8F0" opacity="0.45"/>
+</svg>

@@ -1,0 +1,8 @@
+# Нормализация переводов строк: в репозитории — LF, рабочая копия — по системе
+* text=auto eol=lf
+
+# Двоичные файлы
+*.png binary
+*.jpg binary
+*.ico binary
+*.zip binary
