@@ -45,6 +45,7 @@ description: Проанализировать, что даёт профиль �
 
 ## Дальше
 
+- Какая роль даёт конкретный объект: `/access-profile-explain`
 - Сравнить с другим профилем: `/access-profile-compare`
 - Проверить профиль на проблемы: `/access-profile-check`
 
